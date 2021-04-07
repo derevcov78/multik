@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic' rel='stylesheet'
+        type='text/css'>
+
+    <title>Мультозвук-то что надо вашему ребенку</title>
+
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <h2><a class="nav__link" href="#">Киндерай</a></h2>
+                </div>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#features">Главная</a>
+                    <a class="nav__link" href="#" data-scroll="#question">Вопросы</a>
+                    <a class="nav__link" href="#" data-scroll="#gallery">Галерея</a>
+                    <a class="nav__link" href="#" data-scroll="#reviews">Отзывы</a>
+                    <a class="nav__link" href="#" data-scroll="#contacts">Контакты</a>
+                </nav>
+
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger__item">Menu</span>
+                </button>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Intro -->
+    <div class="intro" id="features">
+        <div class="ontainer">
+            <div class="intro__inner">
+                <h1 class="intro__title">Мультозвуки</h1>
+                <h2 class="intro__subtitle">мультяшные bluetooth-колонки</h2>
+                <!-- кнопка -->
+                <div class="home">
+                    <p><a class="mainButton" href="#modal">Оставить заявку</a></p>
+                </div>
+
+                <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title"
+                    aria-describedby="modal1Desc">
+                    <div class="remodalBorder">
+                        <!--<p><img src="img/sendico.png"></p>-->
+                        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+                        <form id="form">
+                            <h2 id="modal1Title">Оставьте ваши контактные данные и наш консультант свяжется <br>с вами
+                            </h2>
+                            <input type="text" class="putName" name="name" placeholder="Ваше ваше имя" required>
+                            <input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона"
+                                required>
+                            <input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+                            <input type="hidden" name="formData" value="Заявка с сайта">
+                            <p style="margin:0;"><a
+                                    style="font-size:12px; text-align:center; color:rgba(255, 255, 255, 0.686);" </form>
+                    </div>
+                </div>
+
+                <!--кнопка-->
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="question" id="question">
+        <h3 class="item">Часто задаваемые вопросы</h3>
+        <!-- вопрос ответ -->
+        <div class="wrapper">
+            <div class="block one">
+            </div>
+            <div class="block__item">
+                <h4 class="block__title">Как осуществляется доставка?</h4>
+                <div class="block__text">
+                    Доставка по всей России курьером или через пункты самовывоза.
+                    Доставка по Москве и СПб на следующий день. Доставка в регионы 2-5 дней.
+                </div>
+            </div>
+            <div class="block__item">
+                <h4 class="block__title">Как происходит оплата заказа?</h4>
+                <div class="block__text">
+                    Оплата при получении удобным способом:
+                    наличными, безналичный расчет.
+                </div>
+            </div>
+            <div class="block__item">
+                <h4 class="block__title">Какая гарантия действует на колонку?</h4>
+                <div class="block__text">
+                    Мы предоставляем 1 год гарантии.
+                    Если с Мультозвуком что-то случиться, мы заменим его на новый.
+                    Без чеков и лишних вопросов.
+                </div>
+            </div>
+            <div class="block__item">
+                <h4 class="block__title">Про мобильное приложение</h4>
+                <div class="block__text">
+                    Мобильное приложение и весь контент(мультики и музыка без рекламы) бесплатно навсегда.
+                    Доступно на Apple Store и Google Play
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h3 class="item">Галерея</h3>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h3 class="item">Отзывы</h3>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h3 class="item">Контакты</h3>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="copyright">
+            <!-- <div class="container">
+                <div class="copyright__text">
+                    <div>Copyright © 2015 ActiveBox. All Rights Reserved</div>
+                    <div>Made <span>by Kamal Chaneman</span></div>
+                </div>
+            </div>-->
+        </div>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <script src="js/remodal.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
